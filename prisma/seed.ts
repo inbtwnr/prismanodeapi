@@ -47,6 +47,8 @@ async function seed() {
     )
 }
 
+seed()
+
 function getUsers (): Array<User> {
     return [
         { name: 'Alice' },
